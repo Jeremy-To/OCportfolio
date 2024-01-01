@@ -1,5 +1,4 @@
-import React from 'react';
-
+import { me } from '../../me';
 function Navbar() {
 	return (
 		<header className="header">
@@ -12,14 +11,13 @@ function Navbar() {
 							className="header__logo-img"
 						/>
 					</div>
-					<span className="header__logo-sub">John Doe</span>
+					<span className="header__logo-sub">{me.name}</span>
 				</div>
 				<div className="header__main">
 					<ul className="header__links">
 						<li className="header__link-wrapper">
 							<a href="./index.html" className="header__link">
-								{' '}
-								Home{' '}
+								Home
 							</a>
 						</li>
 						<li className="header__link-wrapper">

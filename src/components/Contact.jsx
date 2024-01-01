@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Contact() {
 	return (
 		<section id="contact" className="contact sec-pad dynamicBg">
@@ -8,15 +6,11 @@ function Contact() {
 					<span className="heading-sec__main heading-sec__main--lt">
 						Contact
 					</span>
-					<span className="heading-sec__sub heading-sec__sub--lt">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-						tempora explicabo quae quod deserunt eius sapiente
-					</span>
 				</h2>
 				<div className="contact__form-container">
 					<form action="#" className="contact__form">
 						<div className="contact__form-field">
-							<label className="contact__form-label" for="name">
+							<label className="contact__form-label" htmlFor="name">
 								Name
 							</label>
 							<input
@@ -29,7 +23,7 @@ function Contact() {
 							/>
 						</div>
 						<div className="contact__form-field">
-							<label className="contact__form-label" for="email">
+							<label className="contact__form-label" htmlFor="email">
 								Email
 							</label>
 							<input
@@ -42,7 +36,7 @@ function Contact() {
 							/>
 						</div>
 						<div className="contact__form-field">
-							<label className="contact__form-label" for="message">
+							<label className="contact__form-label" htmlFor="message">
 								Message
 							</label>
 							<textarea
